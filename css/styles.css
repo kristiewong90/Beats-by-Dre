@@ -39,29 +39,36 @@ button {
 
 
 header {
-
+    height: 80px;
+    background: #161616;
 }
 
 .hero {
-
+    height: 400px;
+    background: #999;
 }
 
 .product-lineup-container {
-
+    height: 400px;
+    background: #333;
 }
 
 .feature-product-container {
-
+    height: 400px;
+    background: #444;
 }
 
 .product-support-container {
-
+    height: 400px;
+    background: #555;
 }
 
 .subscription-container {
-
+    height: 400px;
+    background: #666;
 }
 
 footer {
-    
+    height: 400px;
+    background: #161616;
 }
