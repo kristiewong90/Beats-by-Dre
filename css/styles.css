@@ -42,6 +42,8 @@ button {
 /******************************************************************************
 Header Styles
 *******************************************************************************/
+
+/* General Styles */
 header {
     height: 80px;
     background: #161616;
@@ -55,7 +57,8 @@ header .logo {
     background-size: 40px;
 }
 
-header ul {
+/* Desktop Styles */
+.desktop-nav ul {
     float: right;
     margin-top: 10px;
     padding: 0;
@@ -63,25 +66,25 @@ header ul {
     text-align: right;
 }
 
-header li {
+.desktop-nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
-header .fa {
+.desktop-nav .fa {
     margin-left: 5px;
 }
 
-header a,
-header a:visited {
+.desktop-nav a,
+.desktop-nav a:visited {
     color: white;
     font-family:'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
-header a:hover,
-header a:focus,
-header a:active {
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
     opacity: 90%;
     color: white;
     text-decoration: none;
@@ -90,6 +93,8 @@ header a:active {
 .desktop-nav .logo {
     float: left;
 }
+
+/* Mobile Styles */
 
 .mobile-nav {
     display: none;
@@ -105,7 +110,8 @@ header a:active {
     width: 40px;
     display: inline-block;
     margin-left: -4px;
-
+    vertical-align: top;
+    margin-top: 8px;
 }
 
 .mobile-nav .logo-container {
@@ -138,26 +144,46 @@ Hero Styles
     background: #999;
 }
 
+
+/******************************************************************************
+Product Lineup Styles
+*******************************************************************************/
 .product-lineup-container {
     height: 400px;
     background: #333;
 }
 
+
+/******************************************************************************
+Feature Product Styles
+*******************************************************************************/
 .feature-product-container {
     height: 400px;
     background: #444;
 }
 
+
+/******************************************************************************
+Product Support Styles
+*******************************************************************************/
 .product-support-container {
     height: 400px;
     background: #555;
 }
 
+
+/******************************************************************************
+Subscription Styles
+*******************************************************************************/
 .subscription-container {
     height: 400px;
     background: #666;
 }
 
+
+/******************************************************************************
+Footer Styles
+*******************************************************************************/
 footer {
     height: 400px;
     background: #161616;
